@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIS</title>
+   <style>
+       #app{ 
+    height: 368px;
+    background-color: rgb(244, 242, 248);
+    
+    }
+      
+     .container-fluid{ display: block;
+        height: 50px;
+        background-color: white;
+        
+
+     }
+    
+       .navbar {
+        display: block;   
+        margin-left: 50px;
+        height: 20px;
+        
+        
+        
+        
+    }
+     .navbar-brand {float: left;
+    padding: 14px 15px;
+    font-size: 18px;
+    line-height: 22px;
+    height: 50 px; 
+    text-decoration:none;
+    font-family: Raleway,sans-serif;
+
+     } 
+
+   
+   
+   
+.panel {   
+   display: grid;
+  place-items: center;
+  padding: 12px;
+  border: white;
+ 
+}
+.panel-heading { margin: 35px;}
+.panel-body  { display: flex;
+   flex-direction: row-reverse;
+     
+   }
+
+   .primary-button {
+      background-color: lightblue;
+      border-radius: 8px;
+      
+      color: white;
+      width: 60px;
+      cursor: pointer;
+      font-size: white;
+      font-weight: bold;
+      height: 50px;
+    }
+    .login-button {
+      margin-top: 14px;
+      margin-bottom: 30px;
+    }
+      .login-button:hover{
+
+         background-color: blue;
+      }
+   
+   
+      </style>
+    
+</head>
+<body>
+
+    <div id="app">  
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="http://misusa.net">MIS
+             </a>
+          </div>
+         
+        </div>
+      </nav>
+
+      <div class="container"></div>
+         <div class= "panel">
+          <div class="panel-heading">Login</div>
+          <br>
+          <div clss="panel-body">
+
+             <label for="email" class="label">E-mail Address</label>
+            <input type="text" id="email" placeholder="usuario" class="input input-email">
+            <br>
+            <br>
+            <label for="name" class="label">Password             </label>
+            <input type="text" id="name" placeholder="********" class="input input-name">
+            
+          </div>
+          <input type="submit" value="Login" class="primary-button login-button">
+            
+</div>
+</div>
+</body>
+</html>
